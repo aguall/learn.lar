@@ -1,0 +1,28 @@
+.file-upload {
+    position: relative;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    background-image: url("/avatars/default_avatar.jpg");
+    border-radius: 75px;
+    background-size: cover;
+}
+.file-upload:hover {
+    /*background-image: url("/avatars/default_avatar.jpg");*/
+}
+.file-upload input[type="file"]{
+    display: none;
+}
+.file-upload label {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.filename {
+    background-color: #fff;
+    border: 0;
+}
